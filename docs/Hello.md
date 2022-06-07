@@ -3,17 +3,31 @@
 ![](images/a.png)
 
 ```csharp
-App.Install();
+using X.Y.Z;
+
+public class Hello() {
+    public void Install() {
+        App.Install();
+    }
+}
 ```
 
 ## Setup
 
-```csharp
-App.Setup();
+```python
+import x.y.z
+
+print("Hello, world!")
 ```
 
 ## Uninstallation
 
-```csharp
-App.Remove();
+```java
+import x.y.z;
+
+public class Hello() {
+    public void uninstall() {
+        App.uinstall();
+    }
+}
 ```
