@@ -1,5 +1,7 @@
 # Installation
 
+![](images/a.png)
+
 ```csharp
 App.Install();
 ```
