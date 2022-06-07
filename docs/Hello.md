@@ -1,4 +1,4 @@
-# Installation
+## Installation
 
 ![](images/a.png)
 
@@ -6,13 +6,13 @@
 App.Install();
 ```
 
-# Setup
+## Setup
 
 ```csharp
 App.Setup();
 ```
 
-# Uninstallation
+## Uninstallation
 
 ```csharp
 App.Remove();
