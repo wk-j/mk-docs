@@ -2,6 +2,7 @@ site_name: Hello
 site_author: wk-j
 
 markdown_extensions:
+  - meta
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -13,9 +14,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - tags:
+      tags_file: Tags.md
+  - search
 
 theme:
-  name: mkdocs
+  name: material
   highlightjs: true
   hljs_languages:
     - yaml

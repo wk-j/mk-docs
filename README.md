@@ -1,9 +1,8 @@
 # MkDocs
 
 ```
-pip install mkdocs
-mkdocs new .
-mkdocs serve
+pipenv run mkdocs new .
+pipenv run mkdocs serve
 ```
 
 # Actions
