@@ -2,6 +2,12 @@
 
 ```
 pipenv run mkdocs new .
+```
+
+# Run
+
+```
+pipenv install
 pipenv run mkdocs serve
 ```
 
